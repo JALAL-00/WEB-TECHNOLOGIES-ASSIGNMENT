@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+
+  
+   <div class="container">
+
+        <div class="sidebar1"></div>
+        <div class="mainbox">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4">
+                <div class="minibox1"></div>
+                <div class="minibox2"></div>
+                <div class="minibox3"></div>
+            </div>
+            <div class="box5">
+                <div class="bottombox1">
+
+                  <form action="Process.php" method="POST" >
+                    
+                    <label for="fname">Enter full name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your full name">
+                    
+                    <label for="id">ID:</label>
+                    <input type="text" id="id" name="id" placeholder="Enter your ID">
+                    
+                    <label for="email">Enter email:</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email">
+
+                    <label for="btitle">Book title:</label>
+                    <input type="text" id="btitle" name="btitle" placeholder="Enter the book title">
+                    
+                    <label for="bdate">Date:</label>
+                    <input type="date" id="bdate" name="bdate">
+                    
+                    <label for="bodate">Borrow date:</label>
+                    <input type="date" id="bodate" name="bodate">
+                    
+                    <label for="token">Token:</label>
+                    <input type="text" id="token" name="token" placeholder="Enter token">
+                    
+                    <label for="return">Return:</label>
+                    <input type="text" id="return" name="return" placeholder="Enter return info">
+                    
+                    <label for="fees">Fees:</label>
+                    <input type="text" id="fees" name="fees" placeholder="Enter fees">
+                    
+                    <input type="submit" value="Submit">
+                    
+                  </form> 
+
+                </div>
+                <div class="bottombox2"></div>
+            </div>
+        </div>
+        <div class="sidebar2"></div>
+   </div>
+   
+</body>
+</html>
